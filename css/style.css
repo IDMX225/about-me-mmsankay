@@ -43,19 +43,13 @@ header {
 
 #gallery {
     border: 2px solid #61A5ED;
-<<<<<<< HEAD
-    margin-bottom: 2rem;
-=======
->>>>>>> a6beb0d2371d6addac94e4b7c533020cc2345fe1
-}
-
+    margin-bottom: 2rem; }   
 #gallery img {
     max-width:100%;
 }
 
 #gallery figure {
-    text-align:center;
-<<<<<<< HEAD
+    text-align:center; 
 }
 
 /* Literature */
@@ -93,6 +87,4 @@ header {
     border-top-left-radius: .2em;
     border-bottom-right-radius: .2em;
 }
-=======
-}
->>>>>>> a6beb0d2371d6addac94e4b7c533020cc2345fe1
+
