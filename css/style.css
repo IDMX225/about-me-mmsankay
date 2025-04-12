@@ -8,6 +8,10 @@ h1, h2, h3, h4, h5, h6 {
     font-family:"Grenze Gotisch";
     text-align:center;
     font-size:40pt;
+
+    h2 {
+        margin: 0.1em;
+    }
 }
 
 header {
@@ -35,7 +39,13 @@ header {
 
 /* Hobbies */
 
-#hobbies ul li:nth-child(even) {
+section#hobbies {
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+#hobbies ul li:nth-childa(even) {
     color:#000;
 }
 
@@ -87,4 +97,29 @@ header {
     border-top-left-radius: .2em;
     border-bottom-right-radius: .2em;
 }
+
+/* tablet size */
+@media screen and (min-width: 60em) {
+    figure{
+        display: grid;
+        grid-template-columns: 2ft 1ft;
+    }
+}
+
+    figcation {
+     display:flex;
+     justify-content: center;
+     align-items: center;
+     font-size: 2rem;
+     margin-left: 1rem;
+    }
+    #lit div {
+        max-width: 100%;
+        columns: 20rem;
+    }
+
+    
+
+
+
 
