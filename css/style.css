@@ -118,7 +118,30 @@ align-items: center;
         columns: 20rem;
     }
 
+
+/* large screen size */
+
+@media screen and (min-width: 100em) {
+    #gallery {
+        display: grid;
+        grid-template-columns: 1ft 1ft 1ft;
+    }
     
+}
+
+    hr {
+      display: none; 
+    }
+    
+    #gallery h2 {
+        grid-column: 1/-1;
+    }
+    
+    figure {
+        display: block;
+    }
+
+        
 
 
 
