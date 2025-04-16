@@ -98,21 +98,20 @@ align-items: center;
     border-bottom-right-radius: .2em;
 }
 
-/* tablet size */
+/* tablet size */ 
 @media screen and (min-width: 60em) {
-    figure{
-        display: grid;
-        grid-template-columns: 2ft 1ft;
-    }
+} figure {
+ display: grid;
+ grid-template-columns: 2ft 1ft;
 }
 
-    figcation {
-     display:flex;
-     justify-content: center;
-     align-items: center;
-     font-size: 2rem;
-     margin-left: 1rem;
+figcaption {
+ display:flex;
+ justify-content: center;
+ align-items: center;
+ font-size: 2rem; margin-left: 1rem;
     }
+    
     #lit div {
         max-width: 100%;
         columns: 20rem;
