@@ -157,43 +157,45 @@
                        <input type="tel" id="phone" name="Phone">
 
                        <!--Phone type -->
-                       <label for="phonetype">Phone type (optional)</
-                      label>
-                        <section id="phonetype" name="phonetype">
-                            <option value=""selected>Select phone type</
-                            option>
+                       <label for="phonetype">Phone type (optional)</label>
+                       <section id="phonetype" name="phonetype">
+                            <option value=""selected>Select phone type</option>
                             <option value="Mobile">Mobile</option>
                             <option value="Work">Work</option>
                             <option value="Home">Home</option>
-                            </section>
+                        </section>
+                            
+                       <!-- Message -->
+                       <label for="message">Message</label>(optional)</label>
+                       <textarea id="message" name="message" rows="8">
+                 </textarea>
 
+                <!-- Reply -->
+                <fieldset>
+                <legend>would you like a reply?</legend>
 
-                        <!-- Message -->
-                         <label for="message">Message</label>(optional)</label>
-                         <texttarea id="message" name="message" rows="8"></texttarea>
+                 <ul>
+                 <li>
+                 <input type="radio" id="message-yes"
+                name="reply" value="Yes a reply please.
+               ">
+                <label for="message-yes">Yes a reply 
+                would be nice.</label>
+                </li>
+                <li>
+                 <input type="radio" id="message-no"
+                name="reply" value="No," checked>
+                <label for="message-no">No, thanks.
+                </label>
+                </li>
+                </ul>
+                </fieldset>
 
-                         <!-- Reply -->
-                          <fieldset>
-                            <legend>would you like a reply?</legend>
+                <!-- Submit -->
+                 <button type="submit">Send</button>
+                 </div>
 
-                            <ul>
-                                <li>
-                                    <input type="radio" id="message-yes"
-                                    name="reply" value="Yes a reply please.
-                                    ">
-                                    <label for="message-yes">Yes a reply 
-                                    would be nice.</label>
-                                    </li>
-                                    <li>
-                                        <input type="radio" id="message-no"
-                                        name="reply" value="No," checked>
-                                        <label for="message-no">No, thanks.</label>
-                              </li>
-                            </ul>
-                          </fieldset>
-
-
-                    </fieldset>
+           </fieldset>
             </form>
         </section>
     </main>
