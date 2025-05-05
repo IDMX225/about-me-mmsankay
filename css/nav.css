@@ -89,7 +89,7 @@ such that no text wraps
     .navbar-links {
         display: flex;
         flex-direction: row;
-        justify-content: space;
+        justify-content: space-between;
     }
 
     .navbar {
