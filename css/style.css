@@ -149,7 +149,7 @@ legend {
 }
 /* tablet size */ 
 @media screen and (min-width: 60em) {
-} figure {
+figure {
  display: grid;
  grid-template-columns: 2ft 1ft;
 }
@@ -165,7 +165,7 @@ figcaption {
         max-width: 100%;
         columns: 20rem;
     }
-
+}
 
 /* large screen size */
 
